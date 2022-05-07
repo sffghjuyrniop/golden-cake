@@ -1,0 +1,88 @@
+*{
+	margin-top: 8px ;padding: 0;
+	box-sizing: border-box;
+	font-family: gudea;
+}
+body{
+	
+	display: grid;
+	place-items: center;
+}
+.cardcontainer{
+	width: 320px;
+	height: 520px;
+	background: #ffeaa7;
+	border-radius: 25px;
+	display: flex;
+	justify-content: 
+		center;
+	align-items: center;
+	flex-direction: column;
+	}
+header{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	}
+.profile{
+	background-image: url("goldencake.jpeg");
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	background-size: cover;
+	border: 5px solid #EAF578;	
+	margin-top: 0px;
+}
+.name{
+	color: #bb993a;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+	}
+.bio{
+     color:#bb993a;
+	margin-top: 7px;
+	font-weight: bold;
+}	
+section{
+	    display: grid;
+	grid-template-columns: repeat(3,3fr);
+	    grid-gap: 40px;
+	    margin: 0 20px;
+}	
+.cardItem{
+	     display: flex;
+	     flex-direction: column;
+	     align-items: center;
+}	
+.cardItem .value{
+	            font-weight: bold; font-size: 20px;
+	            color: black; padding: 5px;
+}	
+.cardItem .title{
+	            font-size: 14px;
+	            color: black;
+	letter-spacing: 1px;
+}
+.follow{
+	   width: 250px; height: 40px;
+	   border: none; outline: none;
+	   border-radius: 15px;
+	   cursor: pointer;
+	   background-color: #FF9F87;
+	   color:black;
+}
+.more{
+	  display: grid;
+	  grid-template-columns: repeat(3,3fr);
+	  grid-gap: 80px;
+	  margin: 40px 0 0;
+}
+.more i{
+	   font-size: 30px;
+	   color:black;
+	   cursor: pointer;
+		
+}
+
